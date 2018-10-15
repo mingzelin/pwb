@@ -1,0 +1,204 @@
+*{	
+	margin: 0;
+}
+
+
+a{
+	color:inherit;
+	text-decoration: inherit;
+}
+
+body,html{
+	height:100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin-bottom: 20px;
+}
+
+nav{
+	top:0;
+	margin:0;
+	padding:0;
+	display:block;
+	position:fixed;
+	height:10%;
+	width:100%;
+	z-index:10;
+	background:linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	background:-o-linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	background:-webkit-linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	background:-moz-linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	}
+
+nav a{
+	text-decoration: none;
+	color: rgba(255,255,255,.7);
+	margin-left:2%;
+	font-size:23px;
+	font-family: 'Lobster', cursive;
+}
+
+
+
+.sec{
+	height:100%;
+	background-size:cover !important;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	z-index:2 !important;  
+}
+
+.sub{
+	height:30%;
+	background-color:rgb(255,255,255);
+}
+
+#popup:hover{
+	font-family: 'Lobster', cursive;
+    margin-top: 10%;
+    /* height: 60%; */
+    width: 110%;
+    transform:translate(92%, 0);
+    -webkit-transform:translate(92%, 0);
+    transition-duration:2s;
+    -webkit-transition-duration:2s;
+    transition-timing-function:ease-out;
+	font-size:12px;
+	display: block;
+	position:fixed;
+	z-index:11;
+	margin-top:10%;
+}
+
+#popup{
+	text-align: center;
+    margin-top: 10%;
+    height: 60%;
+    width: 110%;
+    right:95%;
+	font-size:12px;
+	display: block;    /* maybe hidden */
+	position:fixed;
+	z-index:11;
+	margin-top:10%;
+	background:linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	background:-o-linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	background:-webkit-linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	background:-moz-linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	border-bottom-right-radius:20px;
+  	border-top-right-radius:20px; 	
+}
+
+  
+#popup h1{
+	text-decoration: none;
+	text-align: center;
+	font-size:45px;
+	font-family: 'Lobster', cursive;
+	z-index:12;
+	color: rgba(255,255,255,.7);
+}
+
+table{
+	margin-left:40%;
+	margin-top:5%;
+	color: rgba(255,255,255,.7);
+	font-size:20px;	
+}
+
+
+.loginInput, .registerInput{
+	background:transparent;
+	color:rgba(255,255,255,0.65) !important;
+	border-width:0;
+	box-shadow: 0px 0px 1px 1px white;
+}
+
+
+
+#popbar{
+	text-align: center;
+    margin-top: 15%;
+    height: 50%;
+    width: 10%;
+    right:98%;
+	font-size:12px;
+	display: block;   
+	position:fixed;
+	z-index:11;
+	
+	background:linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	background:-o-linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	background:-webkit-linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	background:-moz-linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,0.2));
+	border-bottom-right-radius:20px;
+  	border-top-right-radius:20px; 	
+}
+
+ #popbar:hover{
+    transform:translate(80%, 0);
+    -webkit-transform:translate(80%, 0);
+    transition-duration:0.6s;
+    -webkit-transition-duration:0.6s;
+    transition-timing-function:ease-in;
+	font-size:15px;
+	display: block;
+	position:fixed;
+	z-index:11;
+} 
+
+#popbar table{
+	border-collapse:separate;
+}
+	
+.popbarRow{
+	text-align:center;
+	border-bottom: thin solid rgba(255,255,255,.3);
+}
+
+#symBar{
+	/* display:none; */
+	position:absolute;
+	top:50%;
+	right:2%;
+	color:rgba(255,255,255,.5);
+}
+
+.accountQuery {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+   	top:15%;
+    left:-2%;
+    width:15%;
+    color:white;
+    overflow:auto;
+    border-top-right-radius:20%;
+    border-bottom-right-radius:20%;
+    
+}
+
+.accountQuery ul {
+	font-size:20px;
+	list-style-type: none;
+	text-align: left;
+	background:linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,0.2));
+	background:-o-linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,0.2));
+	background:-webkit-linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,0.2));
+	background:-moz-linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,0.1));
+	
+}
+
+.accountQuery li {
+	padding:25%;
+	border-bottom: thin solid rgba(255,255,255,.3);
+}
+
+ .accountQuery li:hover:not(.active){
+	background-color: rgba(255,255,255, 0.5);
+    color: white;
+  
+}
+ 
+

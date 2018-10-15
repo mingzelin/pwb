@@ -1,0 +1,63 @@
+body{
+	background-image:url("../../wallpaper/image2.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	height:100%;
+}
+
+#uploadImageForm{
+	margin:40%;
+}
+
+
+#uploadImageTitle{
+	font-size:30px; 
+	color:rgba(255,255,255,0.9); 
+	text-align:center; 
+	text-decoration:none;
+}
+#uploadImageFile{
+	color:rgba(255,255,255,0.9);
+}	
+#uploadImageSubmit{
+	margin-left:41.5%;
+	padding:5%;
+	font-size:20px; 
+	border-style:dotted; 
+	border-radius:5%; 
+	color:rgba(255,255,255,0.9);
+	text-decoration:none;" 
+} 
+
+
+.cropArea {
+     background: #E4E4E4;
+     overflow: hidden;
+     width:500px;
+     height:350px;
+     margin:0 auto !important;
+     text-align:center !important;
+}
+
+
+#top{
+	margin-top:10%;
+	margin-left:40%;
+	margin-bottom:4%;
+}    
+
+button{
+	border-style:dotted;
+	margin-top:4%;
+	margin-left:48%;
+	width:3%;
+	height:3%;
+	background-color:rgba(255, 255, 255, 0.75);
+}
+ 
+ canvas{
+ 	position:static;
+	margin:0 auto !important;
+	margin-top:15% !important;
+}  
